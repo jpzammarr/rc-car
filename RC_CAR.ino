@@ -64,7 +64,7 @@ if(IrReceiver.decode()){
       break;
     }
   }
-  if(millis()-t0> 200){
+  if(millis()-t0 > 2000){
     turnOff();
   }
   // if(getValue()<5){
